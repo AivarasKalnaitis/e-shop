@@ -23,3 +23,7 @@ Route::namespace('API\Auth')->prefix('auth')->group(function () {
     Route::post('login', 'LoginController@login');
     Route::post('logout', 'LoginController@logout');
 });
+
+Route::namespace('API')->group(function () {
+    Route::get('products', 'ProductController@index');
+});
