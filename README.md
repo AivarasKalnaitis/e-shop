@@ -1,3 +1,3 @@
 # E-shop
 
-E-shop administration and api FE
+E-shop web application backend for client-side and administrator with some simple frontend for admisitrator made with Laravel framework
